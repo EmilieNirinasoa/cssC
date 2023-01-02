@@ -1,0 +1,45 @@
+.image{
+    background-image: url("image/image.jpg");
+}
+
+form input {
+    background-color: rgb(220, 236, 148);
+    width: 300px;
+    height: 50px;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: solid rgb(220, 236, 148) 2px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Dancing Script Medium;
+    font-size: 20px;
+
+  }
+  form .input{
+    display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin-top: 1rem;
+  justify-content: space-around;
+  }
+  form textarea{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
+  justify-content: space-around;
+  border: solid rgb(220, 236, 148) 2px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Dancing Script Medium;
+    font-size: 20px;
+    width: 100%;
+    background-color:rgb(220, 236, 148) ;
+  }
+  .form{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+   
+  }
+  

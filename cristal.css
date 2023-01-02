@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+      background-color: theme('colors.white');
+      
+      padding: theme('spacing.6');
+      box-shadow: theme('boxShadow.2xl');
+     
+      
+    }
+    /* ... */
+  }
+  .card img{
+    width: 600px;
+    height: 200px;
+  }
+  @layer components{
+    .card .img{
+        @apply rounded-md;
+    }
+  }
+  .pt-40.text-2xl{
+    margin-left: 45%;
+    font-size: 40px;
+    font-family: 'Rubik Bubbles';
+  }
+  .card{
+    margin-left: 38%;
+    margin-bottom: 5%;
+  }
+  form{
+    width: 100%;
+    height: 30%;
+  }
